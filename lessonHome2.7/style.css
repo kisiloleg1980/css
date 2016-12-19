@@ -1,0 +1,20 @@
+.square{
+	width: 150px;
+	height: 150px;
+	background: black;
+	color: white;
+	border: 10px ridge blue;
+	margin: 10px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 150px;
+}
+
+.square:nth-child(n+4){
+	position: relative;
+	left: -585px;
+	top: 190px;
+}
+
